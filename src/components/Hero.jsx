@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Mail, Sparkles, FolderGit2 } from 'lucide-react';
+import { ArrowRight, Mail, FolderGit2 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';
 
@@ -130,9 +130,6 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-full border-2 border-dashed border-brand-300/60 animate-[spin_40s_linear_infinite]" />
               
               {/* Subtle accent shapes */}
-              <div className="absolute -top-3 -right-3 w-12 h-12 rounded-2xl bg-amber-100 border border-amber-200 flex items-center justify-center text-amber-600 shadow-sm z-20">
-                <Sparkles className="w-6 h-6" />
-              </div>
               <div className="absolute -bottom-2 -left-2 px-3 py-1.5 rounded-xl bg-white border border-slate-200 shadow-md text-xs font-bold text-slate-700 z-20 flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-teal-500"></span>
                 AI & MLOps

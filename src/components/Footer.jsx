@@ -10,10 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           
           {/* Brand Info */}
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center font-bold text-xs">
-              GT
-            </div>
+          <div className="flex items-center">
             <div>
               <p className="text-white font-bold text-sm">{personalInfo.name}</p>
               <p className="text-xs text-slate-500">{personalInfo.subtitle}</p>

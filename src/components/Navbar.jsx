@@ -55,19 +55,11 @@ export default function Navbar() {
           <a
             href="#hero"
             onClick={(e) => handleNavClick(e, '#hero')}
-            className="flex items-center gap-2.5 group"
+            className="flex items-center group"
           >
-            <div className="w-9 h-9 rx-lg rounded-xl bg-gradient-to-tr from-brand-600 to-skybrand-600 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
-              GT
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-slate-900 tracking-tight text-lg group-hover:text-brand-600 transition-colors">
-                Gowreesh T.
-              </span>
-              <span className="text-[10px] uppercase tracking-wider font-semibold text-slate-400 -mt-1">
-                B.Tech IT
-              </span>
-            </div>
+            <span className="font-bold text-slate-900 tracking-tight text-xl group-hover:text-brand-600 transition-colors">
+              Gowreesh B.T
+            </span>
           </a>
 
           {/* Desktop Navigation */}
